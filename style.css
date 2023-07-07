@@ -1,3 +1,21 @@
-#title {
-    background: url(img/title-background.jpg);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+    max-width: 1440px;
+    background-color: #ffd9d5;
+    margin: 0 auto;
+}
+#top {
+    background-image: url(img/title-background.jpg);
+}
+#top .title img {
+    padding: 200px;
+}
+#top .subtitle h2 {
+    font-size: 32px;
+    margin: 20px;
 }
