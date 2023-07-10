@@ -34,9 +34,15 @@
 #family {
     background-image: url(img/family-background.jpg);
 } 
+#family img {
+    padding: 30px;
+}
 .swiper {
     max-width: 1200px;
     max-height: 900px;
+}
+.swiper-slide {
+    text-align: center;
 }
 .swiper-slide img {
     max-width: 900px;
