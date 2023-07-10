@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ozora Hotel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
 <body>
     <div id="wrapper">
@@ -28,7 +29,25 @@
                 <li><a href="#buffet">最高の<br>ブフェー</a></li>
               </ul>
             </div>
-       </div>
+        </div>
+        <div id="content">
+          <div id="family">
+            <img src="img/family-title.png" alt="">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/family1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/family2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/family3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/family4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/family5.jpg" alt=""></div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+          </div>
+        </div>
     </div>
     <script>
         var swiper = new Swiper(".mySwiper", {
@@ -38,5 +57,6 @@
           },
         });
       </script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
 </html>

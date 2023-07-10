@@ -25,10 +25,21 @@
 #top .navigation ul {
     display: flex;
     justify-content: center;
-    list-style-type: none;
-    padding: 330px;
-    gap: 70px;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    border-radius: 10px;
+    padding: 280px;
 }
-#top .navigation ul li {
-
+#family {
+    background-image: url(img/family-background.jpg);
+} 
+.swiper {
+    max-width: 1200px;
+    max-height: 900px;
+}
+.swiper-slide img {
+    max-width: 900px;
+    max-height: 600px;
+    object-fit: cover;
 }
