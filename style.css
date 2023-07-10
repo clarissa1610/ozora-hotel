@@ -13,9 +13,22 @@
     background-image: url(img/title-background.jpg);
 }
 #top .title img {
-    padding: 200px;
+    padding: 180px;
 }
 #top .subtitle h2 {
-    font-size: 32px;
-    margin: 20px;
+    font-size: 36px;
+    letter-spacing: 4px;
+    line-height: 80px;
+    text-align: center;
+    color: #67432c;
+}
+#top .navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 330px;
+    gap: 70px;
+}
+#top .navigation ul li {
+
 }
