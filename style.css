@@ -53,6 +53,7 @@
     max-width: 900px;
     margin: auto;
     margin-bottom: 30px;
+    color: #fff;
 }
 .reservation-family1 {
     text-align: center;
@@ -67,6 +68,7 @@
     text-align: left;
     line-height: 60px;
     letter-spacing: 3px;
+    color: #67301e;
 }
 .reservation-family2 {
     text-align: center;
@@ -80,6 +82,7 @@
     text-align: left;
     line-height: 60px;
     letter-spacing: 3px;
+    color: #67301e;
 }
 #baby {
     background: url(img/baby-background.jpg);
@@ -92,4 +95,28 @@
 #baby .baby-collage img {
     padding: 50px;
     margin-left: 55px;
+}
+#baby .baby-subtitle img {
+    padding: 25px;
+    margin-left: 20px;
+}
+#baby .baby-subtitle p.p1-baby {
+    position: absolute;
+    padding: 140px;
+    margin-left: 150px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 2px;
+    color: #bec4de;
+}
+#baby .baby-subtitle p.p2-baby {
+    position: absolute;
+    padding: 400px;
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 2px;
+    color: #bec4de;
 }
