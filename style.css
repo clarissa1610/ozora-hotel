@@ -70,6 +70,11 @@
     letter-spacing: 3px;
     color: #67301e;
 }
+.button-family1 {
+    position: absolute;
+    padding: 70px;
+    margin-left: 800px;
+}
 .reservation-family2 {
     text-align: center;
     padding-bottom: 100px;
@@ -83,6 +88,11 @@
     line-height: 60px;
     letter-spacing: 3px;
     color: #67301e;
+}
+.button-family2 {
+    position: absolute;
+    padding: 40px;
+    margin-left: 850px;
 }
 #baby {
     background: url(img/baby-background.jpg);
