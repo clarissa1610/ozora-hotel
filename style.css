@@ -130,3 +130,30 @@
     letter-spacing: 2px;
     color: #bec4de;
 }
+.reservation-baby h2 {
+    position: absolute;
+    text-align: center;
+    margin-left: 350px;
+    padding: 80px;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    color: #ffc0b6;
+}
+.baby-button {
+    position: absolute;
+    padding: 210px;
+    margin-left: 180px;
+}
+.baby-box {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+#camp {
+    background: url(img/camp-background.jpg);
+}
+.camp-title {
+    text-align: center;
+    padding-top: 50px;
+}
