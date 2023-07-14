@@ -227,7 +227,7 @@
 }
 .buffet-rating {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .rating-description p.p1-buffet {
     position: absolute;
@@ -242,4 +242,71 @@
     margin-left: 180px;
     font-size: 65px;
     color: #fff;
+}
+.rating-description p.p3-buffet {
+    position: absolute;
+    padding: 230px;
+    margin-left: 320px;
+    font-size: 35px;
+    color: #fff;
+}
+.rating-description p.p4-buffet {
+    position: absolute;
+    padding: 250px;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: 45px;
+    color: #fff;
+}
+.rating-description p.p5-buffet {
+    position: absolute;
+    padding: 300px;
+    margin-top: 350px;
+    margin-left: 20px;
+    font-size: 35px;
+    color: #fff;
+}
+.coupon-box {
+    text-align: center;
+    margin-top: 100px;
+}
+.coupon-title {
+    position: absolute;
+    padding: 90px;
+    margin-left: 290px;
+    font-size: 45px;
+    color: #fff;
+}
+.coupon-attention {
+    text-align: center;
+    font-size: 35px;
+    color: #f3240f;
+}
+.jal-box {
+    padding: 50px;
+    margin-top: 90px;
+}
+.jal-title {
+    text-align: center;
+    position: absolute;
+    padding: 105px;
+    margin-left: 55px;
+    font-size: 35px;
+    color: #fff;
+}
+.ana-box {
+    position: absolute;
+    margin-left: 50px;
+    padding: 45px;
+    margin-left: 695px;
+    z-index: 1;
+}
+.ana-title {
+    position: absolute;
+    padding: 105px;
+    margin-left: 750px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    z-index: 2;
 }
