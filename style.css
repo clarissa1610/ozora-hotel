@@ -163,9 +163,83 @@
     padding: 50px;
     margin-left: 45px;
     opacity: 0.8;
+    z-index: 1;
 }
-.camp-subtitle p {
+.camp-subtitle p.p1-camp {
     position: absolute;
-    padding: 100px
-    
+    padding: 130px;
+    margin-top: 30px;
+    margin-left: 200px;
+    z-index: 2;
+    text-align: center;
+    font-size: 35px;
+    color: #ffd9d5;
+}
+.camp-subtitle p.p2-camp {
+    position: absolute;
+    padding: 320px;
+    margin-top: 50px;
+    z-index: 2;
+    text-align: center;
+    font-size: 35px;
+    color: #ffd9d5;
+}
+.reservation-camp1 {
+    text-align: center;
+}
+.camp1-button {
+    margin-top: 10px;
+    text-align: center;
+}
+.reservation-camp2 {
+    margin-top: 70px;
+    text-align: center;
+}
+.camp2-button {
+    margin-top: 10px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+#buffet {
+    background: url(img/buffet-background.jpg);
+}
+.buffet-title {
+    padding: 50px;
+}
+.buffet-subtitle {
+    text-align: center;
+    margin-top: 30px;
+}
+.buffet-subtitle p.p1-buffet {
+    position: absolute;
+    font-size: 40px;
+    padding: 100px ;
+    margin-top: 30px;
+    margin-left: 150px;
+    color: #fd9a90;
+}
+.buffet-subtitle p.p2-buffet {
+    position: absolute;
+    font-size: 40px;
+    padding: 350px;
+    margin-top: 120px;
+    color: #fd9a90;
+}
+.buffet-rating {
+    text-align: center;
+    margin-top: 100px;
+}
+.rating-description p.p1-buffet {
+    position: absolute;
+    padding: 50px;
+    margin-left: 550px;
+    font-size: 55px;
+    color: #fff;
+}
+.rating-description p.p2-buffet {
+    position: absolute;
+    padding: 130px;
+    margin-left: 180px;
+    font-size: 65px;
+    color: #fff;
 }
