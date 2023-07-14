@@ -310,3 +310,15 @@
     color: #fff;
     z-index: 2;
 }
+.see-title {
+    position: absolute;
+    padding: 90px;
+    margin-left: 470px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+.see-box {
+    padding: 30px;
+    text-align: center;
+}
