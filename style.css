@@ -22,14 +22,26 @@
     text-align: center;
     color: #67432c;
 }
+.navigation-box {
+    position: absolute;
+    padding: 30px;
+    margin-left: 10px;
+    margin-top: 130px;
+    z-index: 1;
+}
 #top .navigation ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 30px;
+    gap: 60px;
     border-radius: 10px;
-    padding: 280px;
+    padding: 175px;
+    margin-left: 20px;
+}
+.navigation ul li {
+    z-index: 2;
+    margin-top: 29px;
 }
 #family {
     background-image: url(img/family-background.jpg);
