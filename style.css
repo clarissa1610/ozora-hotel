@@ -52,12 +52,21 @@
 #family {
     background-image: url(img/family-background.jpg);
 } 
-#family img {
-    padding: 30px;
+.family-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .swiper {
     max-width: 1200px;
     max-height: 900px;
+}
+.swiper-background1 {
+    background-color: #feb5ae;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
 }
 .swiper-slide {
     text-align: center;
@@ -66,6 +75,7 @@
     max-width: 900px;
     max-height: 600px;
     object-fit: cover;
+    padding-top: 50px;
 }
 .swiper-slide p {
     max-width: 900px;
@@ -82,7 +92,7 @@
 }
 .reservation-family1 h2 {
     position: absolute;
-    padding: 100px;
+    padding: 70px;
     padding-left: 185px;
     font-size: 40px;
     text-align: left;
@@ -103,7 +113,7 @@
 }
 .reservation-family2 h2 {
     position: absolute;
-    padding: 100px;
+    padding: 80px;
     padding-left: 190px;
     font-size: 40px;
     text-align: left;
@@ -238,7 +248,16 @@
     background: url(img/buffet-background.jpg);
 }
 .buffet-title {
-    padding: 50px;
+    padding: 30px;
+    margin-left: 25px;
+}
+.swiper-background3 {
+    background-color: #fff;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
 }
 .buffet-subtitle {
     text-align: center;
