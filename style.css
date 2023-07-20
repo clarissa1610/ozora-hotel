@@ -424,8 +424,19 @@
         margin: auto;
     }
 
-    .subtitle-box img {
+    #top {
+        background-image: url(img/title-background.jpg);
+        float: left;
+        height: 1500px;
+        background-size: cover;
+    }
 
+    .subtitle-box img {
+        align-items: center;
+    }
+
+    .subtitle h2 {
+        white-space: nowrap;
     }
 
     .navigation-box{
