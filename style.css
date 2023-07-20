@@ -409,3 +409,26 @@
     padding: 30px;
     text-align: center;
 }
+
+@media only screen and (max-width: 1440px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #wrapper {
+        width: 100%;
+        background-color: #ffd9d5;
+        margin: auto;
+    }
+
+    .navigation-box{
+        display: none;
+    }
+
+    .navigation ul li {
+        display: none;
+    }
+}
