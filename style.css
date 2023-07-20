@@ -16,11 +16,20 @@
 #top {
     background-image: url(img/title-background.jpg);
 }
+.subtitle-box {
+    position: absolute;
+    padding: 100px;
+    margin-top: 400px;
+}
 #top .title img {
     padding: 180px;
 }
-#top .subtitle h2 {
+.subtitle h2 {
+    position: absolute;
     font-size: 36px;
+    padding: 340px;
+    margin-top: 400px;
+    margin-left: 50px;
     letter-spacing: 4px;
     line-height: 80px;
     text-align: center;
@@ -28,22 +37,27 @@
     font-family: 'Hiragino Sans GB W6';
     src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
 }
-.navigation-box {
+.subtitle-box {
     position: absolute;
+    padding: 100px;
+    margin-top: 510px;
+}
+.navigation-box {
     padding: 30px;
     margin-left: 10px;
-    margin-top: 130px;
+    margin-top: 450px;
     z-index: 1;
 }
 #top .navigation ul {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
     gap: 60px;
     border-radius: 10px;
-    padding: 175px;
-    margin-left: 20px;
+    margin-left: 130px;
+    margin-top: 40px;
 }
 .navigation ul li {
     z-index: 2;
