@@ -164,16 +164,20 @@
 .spplan-family2 {
     display: none;
 }
-.spplan-button2 {
-
+.spbutton-family2 {
+    display: none;
 }
 #baby {
     background: url(img/baby-background.jpg);
     background-position: center;
 }
 #baby .baby-title img {
+    display: block;
     padding: 20px;
     margin-top: 60px;
+}
+.sptitle-baby {
+    display: none;
 }
 #baby .baby-collage img {
     padding: 50px;
@@ -624,6 +628,21 @@
 
     #baby {
         background-image: url(img/sp-images/spbackground-baby.jpg);
+    }
+
+    .baby-title {
+        display: none;
+    }
+
+    .sptitle-baby {
+        display: block;
+        padding: 5px;
+        margin-left: 3px;
+    }
+
+    #baby .baby-collage img {
+        padding: 10px;
+        margin-left: 20px;
     }
 
     #camp {
