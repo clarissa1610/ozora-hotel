@@ -183,9 +183,13 @@
     padding: 50px;
     margin-left: 55px;
 }
-#baby .baby-subtitle img {
+#baby .baby-subtitle .subbox-baby {
+    display: block;
     padding: 25px;
     margin-left: 20px;
+}
+.spsubbox-baby {
+    display: none;
 }
 #baby .baby-subtitle p.p1-baby {
     position: absolute;
@@ -224,14 +228,22 @@
     src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
 }
 .baby-button {
+    display: block;
     position: absolute;
     padding: 210px;
     margin-left: 180px;
 }
+.spbutton-baby {
+    display: none;
+}
 .baby-box {
+    display: block;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 50px;
+}
+.spplan-baby {
+    display: none;
 }
 #camp {
     background: url(img/camp-background.jpg);
@@ -628,6 +640,7 @@
 
     #baby {
         background-image: url(img/sp-images/spbackground-baby.jpg);
+        background-repeat: no-repeat;
     }
 
     .baby-title {
@@ -638,11 +651,82 @@
         display: block;
         padding: 5px;
         margin-left: 3px;
+        padding-top: 15px;
     }
 
     #baby .baby-collage img {
+        width: 325px;
+        height: 233px;
         padding: 10px;
-        margin-left: 20px;
+        margin-left: 25px;
+    }
+
+    #baby .baby-subtitle .subbox-baby {
+        display: none;
+    }
+    .spsubbox-baby {
+        width: 335px;
+        display: block;
+    }
+
+    #baby .baby-subtitle p.p1-baby {
+        position: absolute;
+        padding: 25px;
+        margin-top: 5px;
+        margin-left: 35px;
+        font-size: 11px;
+        text-align: center;
+        line-height: 15px;
+        letter-spacing: 1px;
+        color: #bec4de;
+        font-family: 'Hiragino Sans GB W6';
+        src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+    }
+    #baby .baby-subtitle p.p2-baby {
+        position: absolute;
+        padding: 75px;
+        margin-top: 15px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 17px;
+        letter-spacing: 1px;
+        color: #bec4de;
+        font-family: 'Hiragino Sans GB W6';
+        src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+    }
+
+    .baby-box {
+        display: none;
+    }
+    .spplan-baby {
+        display: block;
+        padding: 5px;
+        margin-top: 5px;
+        padding-bottom: 40px;
+        margin-left: 70px;
+    }
+
+    .reservation-baby h2 {
+        position: absolute;
+        text-align: center;
+        margin-left: 70px;
+        padding: 30px;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 1px;
+        color: #ffc0b6;
+        font-family: 'Hiragino Sans GB W6';
+        src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+    }
+
+    .baby-button {
+        display: none;
+    }
+    .spbutton-baby {
+        display: block;
+        position: absolute;
+        padding: 60px;
+        margin-left: 40px;
     }
 
     #camp {
