@@ -327,8 +327,12 @@
     background: url(img/buffet-background.jpg);
 }
 .buffet-title {
+    display: block;
     padding: 30px;
     margin-left: 25px;
+}
+.sptitle-buffet {
+    display: none;
 }
 .swiper-background3 {
     background-color: #fff;
@@ -764,7 +768,7 @@
     .sptitle-camp {
         display: block;
         text-align: center;
-        margin-top: 10px;
+        padding-top: 10px;
     }
 
     .camp-subtitle .desktopsubbox-camp{
@@ -832,10 +836,20 @@
     .spbutton-camp2 {
         display: block;
         text-align: center;
-        padding-bottom: 20px;
+        padding-bottom: 13px;
     }
 
     #buffet {
         background-image: url(img/sp-images/spbackground-buffet.jpg);
+    }
+
+    .buffet-title {
+        display: none;
+    }
+    .sptitle-buffet {
+        display: block;
+        padding: 5px;
+        padding-top: 10px;
+        margin-left: 5px;
     }
 }
