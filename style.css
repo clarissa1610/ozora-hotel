@@ -249,16 +249,24 @@
     background: url(img/camp-background.jpg);
 }
 .camp-title {
+    display: block;
     text-align: center;
     padding-top: 50px;
     margin-left: 5px;
     margin-bottom: 100px;
 }
-.camp-subtitle img{
+.sptitle-camp {
+    display: none;
+}
+.camp-subtitle .desktopsubbox-camp{
+    display: block;
     padding: 50px;
     margin-left: 45px;
     opacity: 0.8;
     z-index: 1;
+}
+.spsubbox-camp {
+    display: none;
 }
 .camp-subtitle p.p1-camp {
     position: absolute;
@@ -284,20 +292,36 @@
     src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
 }
 .reservation-camp1 {
+    display: block;
     text-align: center;
 }
+.spplan-camp1 {
+    display: none;
+}
 .camp1-button {
+    display: block;
     margin-top: 10px;
     text-align: center;
 }
+.spbutton-camp1 {
+    display: none;
+}
 .reservation-camp2 {
+    display: block;
     margin-top: 70px;
     text-align: center;
 }
+.spplan-camp2 {
+    display: none;
+}
 .camp2-button {
+    display: block;
     margin-top: 10px;
     padding-bottom: 150px;
     text-align: center;
+}
+.spbutton-camp2 {
+    display: none;
 }
 #buffet {
     background: url(img/buffet-background.jpg);
@@ -731,6 +755,84 @@
 
     #camp {
         background-image: url(img/sp-images/spbackground-camp.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .camp-title {
+        display: none;
+    }
+    .sptitle-camp {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .camp-subtitle .desktopsubbox-camp{
+        display: none;
+    }
+    .spsubbox-camp {
+        display: block;
+        width: 265px;
+        margin-top: 20px;
+    }
+
+    .camp-subtitle p.p1-camp {
+        position: absolute;
+        padding: 10px;
+        margin-top: 5px;
+        margin-left: 65px;
+        z-index: 2;
+        text-align: center;
+        font-size: 10px;
+        color: #ffd9d5;
+        font-family: 'Hiragino Sans GB W6';
+        src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+    }
+    .camp-subtitle p.p2-camp {
+        position: absolute;
+        padding: 20px;
+        margin-top: 55px;
+        margin-left: 55px;
+        z-index: 2;
+        text-align: center;
+        font-size: 10px;
+        color: #ffd9d5;
+        font-family: 'Hiragino Sans GB W6';
+        src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+    }
+
+    .reservation-camp1 {
+        display: none;
+    }
+    .spplan-camp1 {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .camp1-button {
+        display: none;
+    }
+
+    .spbutton-camp1 {
+        display: block;
+        text-align: center;
+    }
+
+    .reservation-camp2 {
+        display: none;
+    }
+    .spplan-camp2 {
+        display: block;
+        text-align: center;
+    }
+
+    .camp2-button {
+        display: none;
+    }
+    .spbutton-camp2 {
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
     }
 
     #buffet {
