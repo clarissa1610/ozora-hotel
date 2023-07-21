@@ -21,8 +21,15 @@
     padding: 100px;
     margin-top: 400px;
 }
-#top .title img {
+.sp-subbox {
+    display: none;
+}
+#top .desktop-title img {
+    display: block;
     padding: 180px;
+}
+.sp-title {
+    display: none;
 }
 .subtitle h2 {
     position: absolute;
@@ -346,6 +353,9 @@
     font-family: 'Hiragino Sans GB W6';
     src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
 }
+#footer {
+    background-color: #ffd9d5;
+}
 .coupon-box {
     text-align: center;
     margin-top: 100px;
@@ -416,27 +426,53 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        max-width: 375px;
     }
 
     #wrapper {
         width: 100%;
         background-color: #ffd9d5;
-        margin: auto;
+        margin: 0 auto;
+        max-width: 375px;
     }
 
     #top {
-        background-image: url(img/title-background.jpg);
-        float: left;
-        height: 1500px;
+        background-image: url(img/sp-images/spbackground-title.jpg);
         background-size: cover;
+        max-width: 375px;
     }
 
-    .subtitle-box img {
-        align-items: center;
+    .desktop-title {
+        display: none;
+    }
+
+    .sp-title {
+        display: block;
+        padding: 50px;
+        margin-left: 30px;
+    }
+
+    .subtitle-box {
+        display: none;
+    }
+
+    .sp-subbox {
+        display: block;
+        margin-left: 30px;
     }
 
     .subtitle h2 {
-        white-space: nowrap;
+        position: absolute;
+        font-size: 10px;
+        padding: 80px;
+        margin-top: 175px;
+        margin-left: 10px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        text-align: center;
+        color: #67432c;
+        font-family: 'Hiragino Sans GB W6';
+        src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
     }
 
     .navigation-box{
@@ -445,5 +481,52 @@
 
     .navigation ul li {
         display: none;
+    }
+
+    #family {
+        background-image: url(img/sp-images/spbackground-family.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .swiper {
+        max-width: 333px;
+        max-height: 261px;
+    }
+    .swiper-background1 {
+        background-color: #feb5ae;
+        margin-left: 20px;
+        margin-right: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 40px;
+    }
+    .swiper-slide {
+        text-align: center;
+    }
+    .swiper-slide img {
+        max-width: 265px;
+        max-height: 600px;
+        object-fit: cover;
+        padding-top: 30px;
+    }
+    .swiper-slide p {
+        max-width: 333px;
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 8px;
+        color: #fff;
+        font-family: 'Hiragino Sans GB W6';
+        src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+    }
+
+    #baby {
+        background-image: url(img/sp-images/spbackground-baby.jpg);
+    }
+
+    #camp {
+        background-image: url(img/sp-images/spbackground-camp.jpg);
+    }
+
+    #buffet {
+        background-image: url(img/sp-images/spbackground-buffet.jpg);
     }
 }
