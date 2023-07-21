@@ -74,9 +74,13 @@
     background-image: url(img/family-background.jpg);
 } 
 .family-title {
+    display: block;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.spfamily-title {
+    display: none;
 }
 .swiper {
     max-width: 1200px;
@@ -107,6 +111,7 @@
     src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
 }
 .reservation-family1 {
+    display: block;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -124,9 +129,16 @@
     src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
 }
 .button-family1 {
+    display: block;
     position: absolute;
     padding: 70px;
     margin-left: 800px;
+}
+.spplan-family1{
+    display: none;
+}
+.spbutton-family1{
+    display: none;
 }
 .reservation-family2 {
     text-align: center;
@@ -148,6 +160,12 @@
     position: absolute;
     padding: 40px;
     margin-left: 850px;
+}
+.spplan-family2 {
+    display: none;
+}
+.spplan-button2 {
+
 }
 #baby {
     background: url(img/baby-background.jpg);
@@ -423,7 +441,7 @@
 @media only screen and (max-width: 1440px) {
 
     *{
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
         max-width: 375px;
@@ -488,6 +506,15 @@
         background-repeat: no-repeat;
     }
 
+    .family-title {
+        display: none;
+    }
+
+    .spfamily-title {
+        display: block;
+        padding: 10px;
+    }
+
     .swiper {
         max-width: 333px;
         max-height: 261px;
@@ -516,6 +543,83 @@
         color: #fff;
         font-family: 'Hiragino Sans GB W6';
         src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+    }
+
+    .reservation-family1 {
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .reservation-box1 {
+        display: none;
+    }
+    .spplan-family1 {
+        display: block;
+    }
+
+    .reservation-family1 h2 {
+        position: absolute;
+        padding: 20px;
+        margin-left: 25px;
+        font-size: 12px;
+        text-align: left;
+        line-height: 14px;
+        letter-spacing: 0px;
+        color: #67301e;
+        font-family: 'Hiragino Sans GB W6';
+        src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+    }
+
+    .button-family1 {
+        display: none;
+    }
+
+    .spbutton-family1 {
+        display: block;
+        position: absolute;
+        padding: 13px;
+        margin-left: 224px;
+    }
+
+    .reservation-family2 {
+        text-align: center;
+        padding: 5px;
+    }
+
+    .spbutton-family2 {
+        display: block;
+    }
+    .reservation-family2 h2 {
+        position: absolute;
+        padding: 25px;
+        margin-left: 15px;
+        font-size: 12px;
+        text-align: left;
+        line-height: 14px;
+        letter-spacing: 0px;
+        color: #67301e;
+        font-family: 'Hiragino Sans GB W6';
+        src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+    }
+
+    .reservation-box2 {
+        display: none;
+    }
+
+    .button-family2 {
+        display: none;
+    }
+
+    .spplan-family2 {
+        display: block;
+    }
+
+    .spbutton-family2 {
+        display: block;
+        position: absolute;
+        padding: 15px;
+        margin-left: 215px;
     }
 
     #baby {
