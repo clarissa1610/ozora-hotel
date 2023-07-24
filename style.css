@@ -451,6 +451,15 @@
     font-family: 'Hiragino Sans GB W6';
     src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
 }
+
+.coupon-title a {
+    text-decoration: none
+}
+
+.coupon-title a:visited {
+    color: #fff;
+}
+
 .coupon-attention {
     text-align: center;
     font-size: 35px;
@@ -473,6 +482,13 @@
     color: #fff;
     font-family: 'Hiragino Sans GB W6';
     src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+}
+.jal-title a {
+    text-decoration: none
+}
+
+.jal-title a:visited {
+    color: #fff;
 }
 .sptitle-jal {
     display: none;
@@ -499,6 +515,13 @@
     color: #fff;
     z-index: 2;
 }
+.ana-title a {
+    text-decoration: none
+}
+
+.ana-title a:visited {
+    color: #fff;
+}
 .sptitle-ana {
     display: none;
 }
@@ -510,6 +533,13 @@
     font-size: 35px;
     color: #fff;    font-family: 'Hiragino Sans GB W6';
     src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
+}
+.see-title a {
+    text-decoration: none
+}
+
+.see-title a:visited {
+    color: #fff;
 }
 .see-box {
     padding: 30px;
@@ -1024,6 +1054,14 @@
         src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
     }
 
+    .coupon-title a {
+        text-decoration: none
+    }
+
+    .coupon-title a:visited {
+        color: #fff;
+    }
+
     .coupon-attention {
         text-align: center;
         font-size: 10px;
@@ -1058,6 +1096,14 @@
         src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
     }
 
+    .sptitle-jal a {
+        text-decoration: none
+    }
+
+    .sptitle-jal a:visited {
+        color: #fff;
+    }
+
     .ana-box {
         display: none;
     }
@@ -1084,6 +1130,14 @@
         src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
     }
 
+    .sptitle-ana a {
+        text-decoration: none
+    }
+
+    .sptitle-ana a:visited {
+        color: #fff;
+    }
+
     .see-title {
         display: none;
     }
@@ -1102,6 +1156,15 @@
         font-family: 'Hiragino Sans GB W6';
         src: url(font/Hiragino\ Sans\ GB\ W6.ttf);
     }
+
+    .sptitle-see a {
+        text-decoration: none
+    }
+
+    .sptitle-see a:visited {
+        color: #fff;
+    }
+
     .spbox-see {
         display: block;
         text-align: center;
